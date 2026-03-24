@@ -1,0 +1,274 @@
+body.portfolioBody
+{
+    background: #0b1017;
+    color: #f5f0e8;
+    font-family: "Inter", sans-serif;
+    padding-top: 110px;
+    padding-bottom: 220px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.sectionTitle,
+.card-title,
+.navbar-brand,
+.resumeButton
+{
+    font-family: "Poppins", sans-serif;
+}
+
+.siteHeader
+{
+    background: linear-gradient(90deg, #3f0467, #5b0b91, #6f16a7);
+    border-bottom: 1px solid #8a7a5c;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+}
+
+.siteFooter
+{
+    background: linear-gradient(90deg, #2d063f, #49106b, #5b0b91);
+    border-top: 1px solid #8a7a5c;
+}
+
+.siteFooter a,
+.siteFooter a:visited
+{
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.portfolioNavCard
+{
+    top: 1rem;
+    background: rgba(14, 20, 29, 0.95);
+    border: 1px solid #8a7a5c;
+    border-radius: 18px;
+    padding: 16px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.22);
+}
+
+.customToggler
+{
+    border: 1px solid #8a7a5c;
+    background: rgba(91, 11, 145, 0.2);
+}
+
+.navbar-toggler:focus
+{
+    box-shadow: 0 0 0 0.2rem rgba(145, 83, 201, 0.35);
+}
+
+.sidebarLink
+{
+    color: #f5f0e8;
+    border: 1px solid #8a7a5c;
+    border-radius: 12px;
+    padding: 12px 14px;
+    background: rgba(255, 255, 255, 0.02);
+    transition: transform 0.2s ease, background-color 0.2s ease, border-color 0.2s ease;
+}
+
+.sidebarLink:hover,
+.sidebarLink:focus
+{
+    color: #ffffff;
+    background: rgba(91, 11, 145, 0.35);
+    border-color: #b99c6b;
+    transform: translateY(-2px);
+}
+
+.resumeButton
+{
+    background: #5b0b91;
+    border-color: #5b0b91;
+    border-radius: 12px;
+    font-weight: 600;
+    transition: transform 0.2s ease, background-color 0.2s ease, border-color 0.2s ease;
+}
+
+.resumeButton:hover,
+.resumeButton:focus
+{
+    background: #7118ae;
+    border-color: #7118ae;
+    transform: translateY(-2px);
+}
+
+.contentSection
+{
+    scroll-margin-top: 110px;
+}
+
+html
+{
+    scroll-padding-top: 120px;
+    scroll-behavior: smooth;
+}
+
+.sectionTitle
+{
+    color: #f8efe6;
+    margin-bottom: 1rem;
+}
+
+.sectionText
+{
+    color: #efe5d8;
+    line-height: 1.7;
+}
+
+.sectionDivider
+{
+    width: 100%;
+    height: 0;
+    border: none;
+    border-top: 1px solid #8a7a5c;
+    margin: 2rem 0;
+    opacity: 1;
+}
+
+.portfolioCard
+{
+    background: #101722;
+    border: 1px solid #8a7a5c;
+    color: #f5f0e8;
+    border-radius: 18px;
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.18);
+    transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.portfolioCard:hover
+{
+    transform: translateY(-4px);
+    box-shadow: 0 16px 30px rgba(0, 0, 0, 0.24);
+    border-color: #b99c6b;
+}
+
+.skillHighlight
+{
+    background: linear-gradient(180deg, rgba(91, 11, 145, 0.18), rgba(16, 23, 34, 1));
+}
+
+.portfolioTable
+{
+    border-color: #8a7a5c;
+    --bs-table-bg: #101722;
+    --bs-table-striped-bg: #151f2d;
+    --bs-table-hover-bg: #1a2638;
+    --bs-table-border-color: #8a7a5c;
+    color: #f5f0e8;
+}
+
+.portfolioImage
+{
+    width: 100%;
+    height: auto;
+    border: 1px solid rgba(185, 156, 107, 0.4);
+    background: rgba(255, 255, 255, 0.02);
+}
+
+.bioLogo
+{
+    max-width: 460px;
+}
+
+.projectCard .projectImages
+{
+    margin-top: 1rem;
+}
+
+.projectCard .projectImages img
+{
+    width: 100%;
+    max-width: 100%;
+    aspect-ratio: 16 / 10;
+    object-fit: contain;
+}
+
+.form-control
+{
+    background: #101722;
+    color: #f5f0e8;
+    border: 1px solid #8a7a5c;
+}
+
+.form-control:focus
+{
+    background: #101722;
+    color: #f5f0e8;
+    border-color: #b99c6b;
+    box-shadow: 0 0 0 0.2rem rgba(145, 83, 201, 0.2);
+}
+
+@media (max-width: 767.98px)
+{
+    body.portfolioBody
+    {
+        padding-bottom: 260px;
+    }
+
+    .portfolioNavCard
+    {
+        position: static !important;
+    }
+
+    .customToggler
+    {
+        width: 100%;
+    }
+
+    .sectionDivider
+    {
+        margin: 1.5rem 0;
+    }
+
+    .siteFooter
+    {
+        position: static !important;
+    }
+}
+
+.skillListItem
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 10px;
+}
+
+.skillText
+{
+    cursor: pointer;
+    flex-grow: 1;
+}
+
+.skillButtonWrap
+{
+    display: flex;
+    gap: 8px;
+}
+
+.skillActionBtn
+{
+    border-color: #8a7a5c;
+    color: #f5f0e8;
+}
+
+.skillActionBtn:hover,
+.skillActionBtn:focus
+{
+    background: rgba(91, 11, 145, 0.35);
+    border-color: #b99c6b;
+    color: #ffffff;
+}
+
+#sortProjectsBtn
+{
+    border-radius: 12px;
+    font-weight: 600;
+}
